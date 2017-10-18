@@ -1,0 +1,16 @@
+{
+  "name": "vue-test",
+  "version": "0.0.1",
+  "dependencies": {
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-alias": "latest",
+    "rollup-plugin-replace": "latest",
+    "rollup-plugin-vue": "latest"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
